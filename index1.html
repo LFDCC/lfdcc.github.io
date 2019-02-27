@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>我是教师1</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="lib/weui.min.css">
+		<link rel="stylesheet" href="css/jquery-weui.css">
+		<link rel="stylesheet" href="css/style.css?v=0.0005">
+
+	</head>
+
+	<body ontouchstart>
+		<header class='demos-header' style="padding: 20px;">
+			<h1 class="demos-title" style="font-size: 22px; color: #888;">填写教师资料</h1>
+		</header>
+		<div class="weui-cells weui-cells_form" style="margin-top: 0;">
+			<div class="weui-cell" style="padding: 15px;">
+				<div class="weui-cell__hd"><label class="weui-label">选择学校</label></div>
+				<div class="weui-cell__bd">
+					<input class="weui-input" type="text" placeholder="请选择">
+				</div>
+			</div>
+			<div class="weui-cell" style="padding: 15px;">
+				<div class="weui-cell__hd"><label class="weui-label">真实姓名</label></div>
+				<div class="weui-cell__bd">
+					<input class="weui-input" type="text" placeholder="请填写">
+				</div>
+			</div>
+
+		</div>
+
+		<div class="weui-btn-area" style=" margin-top:30px">
+			<a class="weui-btn weui-btn_primary" href="#">提 交</a>
+		</div>
+		<div style="color: #999; text-align: center; margin-top: 15px;">由学校管理员审核通过后，账号可正常使用</div>
+		<script src="lib/jquery-2.1.4.js"></script>
+		<script src="lib/fastclick.js"></script>
+		<script>
+			$(function() {
+				FastClick.attach(document.body);
+			});
+		</script>
+		<script src="js/jquery-weui.js"></script>
+
+	</body>
+
+</html>
